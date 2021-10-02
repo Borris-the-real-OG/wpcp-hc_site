@@ -7,7 +7,4 @@ repo: "https://github.com/Borris-the-real-OG"
 sass:
   sass_dir: css
 
-exclude:
-  .gitignore
-  Gemfile*
-  README.md
+exclude: [.gitignore, Gemfile*, README.md]
