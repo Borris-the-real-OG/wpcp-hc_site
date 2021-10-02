@@ -1,0 +1,54 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+
+body {
+    background-color: #555555;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.fs-4 {
+    color: whitesmoke;
+}
+
+li {
+    color: white;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.card-text {
+    color: grey;
+}
+
+.row {
+    margin-left: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: grey;
+}
+
+.dropdown-item {
+    &:hover {
+        background-color: #444444;
+    }
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+}
+
+pre {
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" id="crd1" src="
+    {% if include.img  %}
+    {{ include.img }}" alt="{{ include.img }}"
+    {% else %}
+    data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" height="115"
+    {% endif %}
+    >
+    <div class="card-body">
+        <h5 class="card-title">{{ include.title }}</h5>
+        <p class="card-text">{{ include.description }}</p>
+        <a href="{{ include.repo }}" class="btn btn-primary">Code</a>
+    </div>
+</div>
