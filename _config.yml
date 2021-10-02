@@ -1,8 +1,13 @@
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://borris-the-real-og.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/wpcp-hc_site" # the subpath of your site, e.g. /blog
 title: "WPCP Hack Club" # the name of your site, e.g. ACME Corp.
 
 repo: "https://github.com/Borris-the-real-OG"
 
 sass:
   sass_dir: css
+
+exclude:
+  .gitignore
+  Gemfile*
+  README.md
