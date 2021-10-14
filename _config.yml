@@ -1,5 +1,4 @@
-url: "https://borris-the-real-og.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/wpcp-hc_site" # the subpath of your site, e.g. /blog
+url: "https://wpcphackclub.live" # the base hostname & protocol for your site, e.g. http://example.com
 title: "WPCP Hack Club" # the name of your site, e.g. ACME Corp.
 
 repo: "https://github.com/Borris-the-real-OG"
