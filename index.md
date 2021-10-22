@@ -3,11 +3,6 @@ permalink: /
 layout: default
 ---
 
-<head>
-  <!-- For Google Crawler -->
-  <meta name="google-site-verification" content="TZ8Ded4p6V5KuOG3tbf2cWgBvRAJwGlyNgMB1MUjTG8" />
-</head>
-
 <div class="container">
   <div class="row">
     <div class="col">
