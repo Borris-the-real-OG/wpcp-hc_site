@@ -1,9 +1,9 @@
 url: "https://wpcphackclub.live" # the base hostname & protocol for your site, e.g. http://example.com
 title: "WPCP Hack Club" # the name of your site, e.g. ACME Corp.
 
-repo: "https://github.com/Borris-the-real-OG"
+repo: "https://github.com/Borris-the-real-OG/wpcp-hc_site"
 
 sass:
   sass_dir: css
 
-exclude: [.gitignore, Gemfile*, README.md]
+exclude: [.gitignore, Gemfile*, README.md, CNAME]

@@ -33,7 +33,7 @@ int main() {
 }</code></pre>
 </div>
 
-<p>There's quite a bit to break down here. Most obvious is the <kbd><code>#include &lt;iostream&gt;</code></kbd> business. The <kbd><code>#</code></kbd> is for a <i>preprocessor directive</i>, which is basically a command for the compiler, and <kbd><code>#include</code></kbd> is one such directive that imports a <i>header file</i> into your code. It's actually a lot more low-tech than it looks: The compiler literally copy-pastes the contents of <kbd><code>&lt;iostream.h&gt;</code></kbd> into your code, and then compiles the whole thing (the <kbd>.h</kbd> is for header file).
+<p>There's quite a bit to break down here. Most obvious is the <kbd><code>#include &lt;iostream&gt;</code></kbd> business. The <kbd><code>#</code></kbd> is for a <i>preprocessor directive</i>, which is basically a command for the compiler, and <kbd><code>#include</code></kbd> is one such directive that imports a <i>header file</i> into your code. It's actually a lot more low-tech than it looks: The compiler literally copy-pastes the contents of <kbd><code>iostream.h</code></kbd> into your code, and then compiles the whole thing (the <kbd>.h</kbd> is for header file).
 
 <br><br>
 &emsp;"Ok, well, where did this 'iostream.h' file come from?" you might ask.<br><br>Every installation of a C++ compiler comes bundled with a version of the <i>standard <small>template</small> library</i> (STL). The standard library is a collection of useful algorirthms, containers and other stuff that makes life a lot easier, like <kbd><code>&lt;iostream&gt;</code></kbd> for I/O. The implementation of the STL is totally up to the compiler vendor, but all implementations have the exact same function/class names and all the algorithms are guarateed to run with a certain time and space complexity. In other words, <em>don't worry about it</em>.
@@ -68,11 +68,11 @@ int main() {
 
 <br>
 <p>
-The <kbd>&lt;&lt;</kbd> falls into the same 'hand-wavey' category as cout, but it's basically how you read/write to a stream (how you print stuff). <kbd>"Hello, world!"</kbd> is probably pretty self explnatory, but in case you haven't seen <kbd>\n</kbd> before, its an escape code that means newline.
+The <kbd>&lt;&lt;</kbd> falls into the same 'hand-wavey' category as cout, but it's basically how you read/write to a stream (how you print stuff). <kbd>"Hello, world!"</kbd> is probably pretty self explnatory, but in case you haven't seen <kbd>\n</kbd> before, it's an escape code that means newline.
 <br><br>
 Phew! That was a lot to get through. Maybe take 5, get some water or something.
 <br>
-In all honesty, there's no way I can teach C++ better than one of the websites listed at the top. Buuuut I and many hack club members have experience with C++, so asking us for help is not a bad idea. Probably pretty infeasible for me to write a whole C++ tutorial though.
+In all honesty, there's no way I can teach C++ better than one of the websites listed at the top. <i>Buuuut</i> I and many hack club members have experience with C++, so asking us for help is not a bad idea. Probably pretty infeasible for me to write a whole C++ tutorial though.
 </p>
 
 

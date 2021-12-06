@@ -8,7 +8,7 @@ layout: default
             <div class="card text-center" style="width: 18rem;">
                 <div class='card-body'>
                     <h1 class="card-title">1st USACO Contest</h1>
-                    <p class='card-text'>December 18-21</p>
+                    <p class='card-text'>December 17-20</p>
                     <h3 class='card-text' id='usaco_count'></h3>
                     <a href="https://usaco.guide/dashboard/" class="btn btn-primary" id='usaco_btn'>Practice</a>
                 </div>
@@ -46,7 +46,7 @@ layout: default
     var cap_cnt = document.getElementById("cap_count");
     var code_cnt = document.getElementById("code_count");
 
-    var usaco_date = new Date("Dec 18, 2021 00:00:00").getTime();
+    var usaco_date = new Date("Dec 17, 2021 00:00:00").getTime();
     var to_usaco = usaco_date - now;
 
     var cap_date = new Date("Nov 1, 2021 00:00:00").getTime();
